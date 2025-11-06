@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,6 +34,7 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
+    transition: background 0.2s ease;
   }
   .dropdown:hover {
     background: #d9f0dc;
@@ -56,6 +58,7 @@
   <div class="task-container">
     <div class="task-title">Goblin.tools Task</div>
 
+    <!-- Dropdown 1 -->
     <div class="dropdown">Explore resources related to emerging technologies and information communities</div>
     <ul class="dropdown-content">
       <li>Identify reputable sources that cover emerging technologies and information communities</li>
@@ -66,6 +69,7 @@
       <li>Summarize key insights and trends from the resources you explore</li>
     </ul>
 
+    <!-- Dropdown 2 -->
     <div class="dropdown">Review Horizon Reports and Pew Research’s Internet & Technology studies</div>
     <ul class="dropdown-content">
       <li>Read the Horizon Reports carefully</li>
@@ -78,6 +82,7 @@
       <li>Organize the information into a clear and concise summary or notes</li>
     </ul>
 
+    <!-- Dropdown 3 -->
     <div class="dropdown">Identify connections between the resources and your information community</div>
     <ul class="dropdown-content">
       <li>Determine the resources available to your information community</li>
@@ -89,9 +94,37 @@
       <li>Summarize the ways these resources contribute to the community's information-sharing and growth</li>
     </ul>
 
+    <!-- Dropdown 4 -->
+    <div class="dropdown">Gather ideas, findings, and statistics from the resources and your own research</div>
+    <ul class="dropdown-content">
+      <li>Read and review the resources and your research materials</li>
+      <li>Identify relevant ideas, findings, and statistics</li>
+      <li>Highlight or note important information and key points</li>
+      <li>Summarize the main ideas and significant data</li>
+      <li>Organize the ideas, findings, and statistics for easy reference</li>
+      <li>Verify the accuracy of the statistics and data collected</li>
+      <li>Compile the gathered information into a cohesive set of notes or a document</li>
+    </ul>
+
+    <!-- Dropdown 5 -->
+    <div class="dropdown">Design an artifact demonstrating your community’s use of emerging technologies or the internet</div>
+    <ul class="dropdown-content">
+      <li>Identify the emerging technology or internet trend relevant to your community</li>
+      <li>Research how your community currently uses this technology or trend</li>
+      <li>Gather examples, stories, or data that illustrate this usage</li>
+      <li>Decide on the format for your artifact (e.g., infographic, video, presentation, website)</li>
+      <li>Create a rough outline or storyboard of your artifact’s content and structure</li>
+      <li>Collect or create visual and textual materials to support your demonstration</li>
+      <li>Design and assemble the artifact, integrating your research and visuals</li>
+      <li>Review the artifact to ensure it accurately represents your community’s use of the technology</li>
+      <li>Refine and edit the artifact for clarity, accuracy, and visual appeal</li>
+      <li>Share or present your finished artifact to your intended audience</li>
+    </ul>
+
   </div>
 
   <script>
+    // Simple dropdown toggle logic
     const dropdowns = document.querySelectorAll('.dropdown');
     dropdowns.forEach(drop => {
       drop.addEventListener('click', () => {
