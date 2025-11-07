@@ -1,48 +1,207 @@
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerging Technologies & Information Communities</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            line-height: 1.3;
+        }
+        h1 {
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        .video-placeholder {
+            background-color: #e9ecef;
+            border: 1px dashed #ced4da;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .video-placeholder code {
+            background-color: #d4d8dc;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .toc {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .toc ol {
+            padding-left: 20px;
+            margin: 0;
+        }
+        .toc li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        details {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            transition: box-shadow 0.2s;
+        }
+        details:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        summary {
+            font-weight: bold;
+            font-size: 1.1em;
+            cursor: pointer;
+            padding: 20px;
+            display: list-item;
+            color: #34495e;
+        }
+        details[open] summary {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        details > :not(summary) {
+            padding: 0 20px 20px 40px;
+        }
+        blockquote {
+            background-color: #fffaf0;
+            border-left: 5px solid #ffc107;
+            margin: 20px 0;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+        }
+        blockquote h4 {
+            margin-top: 0;
+            color: #d9a000;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .checklist {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .checklist li {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+        }
+        .checklist label {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        .checklist input[type="checkbox"] {
+            margin-right: 12px;
+            width: 1.3em;
+            height: 1.3em;
+        }
+        .references {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
 
-# Emerging Technologies & Information Communities: Frameworks for the Future
+    <h1>Emerging Technologies & Information Communities: Frameworks for the Future</h1>
 
-Welcome to this module on emerging technologies. This document is an interactive companion to the video presentation. You can navigate to any section using the menu below, watch the video, and explore the key concepts at your own pace.
+    <p>Welcome to this module on emerging technologies. This document is an interactive companion to the video presentation. You can navigate to any section using the menu below, watch the video, and explore the key concepts at your own pace.</p>
 
-> `[Note to you: This is where you will embed your video recording.]`
-> 
-> **[Video Presentation Embedded Here]**
+    <div class="video-placeholder">
+        <p><strong>[Video Presentation Embedded Here]</strong></p>
+        <p><code>[Note to you: This is where you will embed your video recording. You can replace this entire box with your &lt;iframe&gt; or &lt;video&gt; tag.]</code></p>
+    </div>
 
----
+    <div class="toc">
+        <h3>Table of Contents</h3>
+        <ol>
+            <li><a href="#intro">Introduction: What We Mean by "Emerging"</a></li>
+            <li><a href="#framework1">Core Framework 1: The 5 Characteristics of Information Communities</a></li>
+            <li><a href="#framework2">Core Framework 2: "Continuous Computing"</a></li>
+            <li><a href="#analysis">Analysis: The Three Broad Shifts to Watch</a></li>
+            <li><a href="#case-study">Case Study: The Great Accelerator (Lessons from the Pandemic)</a></li>
+            <li><a href="#toolkit">Toolkit: How to "Watch the Horizon"</a></li>
+            <li><a href="#conclusion">Conclusion: Mindset > Technology</a></li>
+            <li><a href="#action">Your Call to Action</a></li>
+            <li><a href="#references">References</a></li>
+        </ol>
+    </div>
 
-### **Table of Contents**
-*(You can make these "jump links" in your final document)*
+    <h2 id="intro">1. Introduction: What We Mean by "Emerging"</h2>
+    <p>This module is about emerging technologies. But what does that mean? Is it Generative AI? Virtual Reality? A library's first TikTok account?</p>
+    <p>The truth is, <strong>"emerging" is a moving target</strong>. What is "emerging" for one institution might be outdated for another.</p>
+    <p>The key concept is that technology doesn't emerge in a vacuum. It's a "confluence of advances", where multiple advancements (like faster networks, smartphones, streaming media, and AI) converge to create a broader impact.</p>
+    <p>This module will not focus on specific apps that could be gone next year. Instead, we will focus on <strong>durable frameworks</strong> for understanding, evaluating, and adapting to <em>any</em> new technology that comes your way.</p>
 
-1.  **Introduction:** What We Mean by "Emerging"
-2.  **Core Framework 1:** The 5 Characteristics of Information Communities
-3.  **Core Framework 2:** "Continuous Computing"
-4.  **Analysis:** The Three Broad Shifts to Watch
-5.  **Case Study:** The Great Accelerator (Lessons from the Pandemic)
-6.  **Toolkit:** How to "Watch the Horizon"
-7.  **Conclusion:** Mindset > Technology
-8.  **Your Call to Action**
-9.  **References**
+    <h2 id="framework1">2. Core Framework 1: The 5 Characteristics of Information Communities</h2>
+    <p>We will use Fisher and Fulton's (2022) five characteristics of information communities to shift our focus from "what is this new gadget?" to "what does this new technology do for our communities?". This provides a theoretical framework that will outlast any specific app.</p>
+    <p><strong>Click each characteristic to learn more:</strong></p>
 
----
+    <details>
+        <summary><b>1. Emphasis on Collaboration Among Diverse Information Providers</b></summary>
+        <p>This characteristic highlights that collaboration is essential for gathering and distributing diverse information. Emerging technology acts as the "connective tissue".</p>
+        <ul>
+            <li><b>Examples:</b> Cloud-based platforms like Slack, Microsoft Teams, Zoom, and Discord have created the foundation for modern collaboration, allowing people to work together without being in the same building or time zone.</li>
+            <li><b>Technical Example:</b> An Application Programming Interface (API) allows organizations to share data without sharing their systems. A museum's digital archive API could let a public library's website pull in relevant images for a local history project, creating a seamless user experience.</li>
+        </ul>
+    </details>
 
-## 1. Introduction: What We Mean by "Emerging"
+    <details>
+        <summary><b>2. Capacity to Form Around People's Needs to Access and Use Information</b></summary>
+        <p>Communities now form organically where the need is. They don't wait for an institution; they form a Facebook Group, Discord server, or Subreddit to solve a problem, share information, or advocate for a cause.</p>
+        <ul>
+            <li><b>Example:</b> Platforms like Nextdoor are information communities that form exclusively around a shared geographic need. The technology allows people to self-organize and share information at the neighborhood level.</li>
+        </ul>
+    </details>
 
-This module is about emerging technologies. But what does that mean? Is it Generative AI? Virtual Reality? A library's first TikTok account?
+    <details>
+        <summary><b>3. Capacity to Exploit the Information-Sharing Qualities of Emerging Technologies</b></summary>
+        <p>This is the core of this module. It's not just about sharing text; it's about sharing experiences, generating new content, and automating processes.</p>
+        
+        <h4><b>Exploiting the INTELLIGENT Web (AI)</b></h4>
+        <p>We can now generate information, not just retrieve it. We can ask an AI to summarize a complex document, explain a concept in simple terms, automate tasks, or draft code.</p>
+        <ul>
+            <li><b>Pros:</b> Information generation, task automation, complex summarization, code drafting.</li>
+            <li><b>Cons:</b> Bias potential, privacy concerns, job displacement.</li>
+        </ul>
 
-The truth is, **"emerging" is a moving target**. What is "emerging" for one institution might be outdated for another.
+        <h4><b>Exploiting the IMMERSIVE Web (VR/AR)</b></h4>
+        <p>We can now share experiences. A library or museum can offer a Virtual Reality (VR) tour of a historical site, allowing a user to "be there" in a way a book cannot. This technology fosters "social presence". An author talk in a VR social space allows attendees from around the world to feel like they are in the same room.</p>
+        <ul>
+            <li><b>Pros:</b> Enhanced experiences, social presence, global interaction.</li>
+            <li><b>Cons:</b> High cost, technical issues, accessibility concerns.</li>
+        </ul>
 
-The key concept is that technology doesn't emerge in a vacuum. It's a "confluence of advances", where multiple advancements (like faster networks, smartphones, streaming media, and AI) converge to create a broader impact.
+        <h4><b>Exploiting the PARTICIPATORY Web (Social Platforms)</b></h4>
+        <p>Information-sharing is no longer linear. Platforms like TikTok or Instagram Reels allow a single, compelling "how-to" video from a librarian to reach millions. We exploit this by inviting the community to share with us, such as asking for local stories or creating a "digital commons" where users upload and tag their own historical photos.</p>
+    </details>
 
-This module will not focus on specific apps that could be gone next year. Instead, we will focus on **durable frameworks** for understanding, evaluating, and adapting to *any* new technology that comes your way.
-
-## 2. Core Framework 1: The 5 Characteristics of Information Communities
-
-We will use Fisher and Fulton's (2022) five characteristics of information communities to shift our focus from "what is this new gadget?" to "what does this new technology do for our communities?". This provides a theoretical framework that will outlast any specific app.
-
-**Click each characteristic to learn more:**
-
-<details>
- <summary><b>1. Emphasis on Collaboration Among Diverse Information Providers</b></summary>
- <p>This characteristic highlights that collaboration is essential for gathering and distributing diverse information. Emerging technology acts as the "connective tissue".</p>
- <ul>
-   <li><b>Examples:</b> Cloud-based
+    <details>
+        <summary><b>4. Ability to Transcend Barriers to Information Sharing</b></summary>
+        <p>This is about access and equity. Technology can be a powerful force for breaking down walls that have traditionally firewalled information
